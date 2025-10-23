@@ -1,0 +1,4 @@
+# Ігноруємо зайві файли
+Mediator.rb
+duplicates.json
+.github/
