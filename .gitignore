@@ -1,4 +1,8 @@
 # Ігноруємо зайві файли
 Mediator.rb
 duplicates.json
+1.rb
 .github/
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github\instructions\snyk_rules.instructions.md
