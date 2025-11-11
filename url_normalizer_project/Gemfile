@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# Використовуємо :path для підключення локального гему під час розробки
+# Цей рядок дозволяє запускати демо та тести без встановлення гему в систему
+gem "url_normalizer", path: "."
+
+# Група для розробки та тестування
+group :development, :test do
+  gem "rspec", "~> 3.0" # Залежність для запуску тестів
+end
